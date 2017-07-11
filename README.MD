@@ -23,11 +23,11 @@ Super simple js tabs library.
     ```
   - JS:
     ```js
-    $.fn.tabby() - simple init
+    $.fn.tabby() // simple init
     
-    $.fn.tabby(options) - init with custom settings
+    $.fn.tabby(options) // init with custom settings
     
-    var tabs = $.fn.tabby(); - init for api methods like:
+    var tabs = $.fn.tabby(); // init for api methods like:
         tabs.init();
     ```
 
@@ -36,11 +36,14 @@ Super simple js tabs library.
 ##### Options
 - Defaults and will be changable (type - object):
     ```js
-    elRoot: ".tabby", - root selector
-    elTab: ".tabby__tab", - tab selector
-    elContent: ".tabby__content", - tab content selector
-    classActiveTab: "tabby__tab--active", - tab active class
-    welcome: true/false - show info in console
+    {
+      elRoot: ".tabby", // root selector
+      elTab: ".tabby__tab", // tab selector
+      elContent: ".tabby__content", // tab content selector
+      classActiveTab: "tabby__tab--active", // tab active class
+      welcome: true/false // show info in consol
+    }
+    ]
     ```
 ##### Methods
 When you called tabby, its automatically called init method.
