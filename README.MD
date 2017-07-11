@@ -3,6 +3,21 @@
 Super simple js tabs library.
 
 ### Usage:
+ First of all include jQuery and Tabby
+ ```html
+  <html>
+    <head>
+      ...
+      <link rel="stylesheet" href="css/tabby.min.css">
+    </head>
+    <body>
+      ...
+      <script src="js/jquery.min.js"></script>
+      <script src="js/tabby.min.js"></script>
+    </body>
+  <html>
+ ```
+ 
  - HTML:
     ```html
     <div class="tabby">
