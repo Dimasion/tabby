@@ -4,7 +4,7 @@ Super simple js tabs library.
 
 ### Usage:
  - HTML:
-    ```sh
+    ```html
     <div class="tabby">
     
       <div class="tabby__tabs">
@@ -22,7 +22,7 @@ Super simple js tabs library.
     </div>
     ```
   - JS:
-    ```sh
+    ```js
     $.fn.tabby() - simple init
     
     $.fn.tabby(options) - init with custom settings
@@ -35,7 +35,7 @@ Super simple js tabs library.
 ### Api:
 ##### Options
 - Defaults and will be changable (type - object):
-    ```sh
+    ```js
     elRoot: ".tabby", - root selector
     elTab: ".tabby__tab", - tab selector
     elContent: ".tabby__content", - tab content selector
@@ -44,6 +44,6 @@ Super simple js tabs library.
     ```
 ##### Methods
 When you called tabby, its automatically called init method.
-```sh
+```js
 init() - init/update tabs
 ```
