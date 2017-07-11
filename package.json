@@ -1,0 +1,21 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "minifier": "^0.8.1",
+    "simple-autoreload-server": "^0.2.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "jsbuild": "minify --output ./dist/tabby.min.js ./js/tabby.js",
+    "cssbuild": "minify --output ./dist/tabby.min.css ./css/tabby.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

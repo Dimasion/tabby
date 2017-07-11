@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="dist/tabby.min.css">
+  <title>Plugin</title>
+</head>
+<body>
+  <h1>
+    <span>Tabby - tabs</span>
+    <sup>v0.1</sup>
+  </h1>
+  <div class="container">
+    <!-- Tabs 1 -->
+    <div class="tabby">
+      <div class="tabby__tabs">
+        <div class="tabby__tab tabby__tab--active" data-tab="1">First</div>
+        <div class="tabby__tab" data-tab="2">Second</div>
+        <div class="tabby__tab" data-tab="3">Third</div>
+      </div>
+
+      <div class="tabby__contents">
+        <div class="tabby__content" data-tab="1">Content 1</div>
+        <div class="tabby__content" data-tab="2">Content 2</div>
+         <div class="tabby__content" data-tab="3">Content 3</div> 
+      </div>
+    </div>
+    
+    <!-- Tabs 2 -->
+    <div class="tabby">
+      <div class="tabby__contents">
+        <div class="tabby__content" data-tab="1">Content 2-1</div>
+        <div class="tabby__content" data-tab="2">Content 2-2</div>
+        <div class="tabby__content" data-tab="3">Content 2-3</div>
+      </div>
+
+      <div class="tabby__tabs">
+        <div class="tabby__tab" data-tab="1">First</div>
+        <div class="tabby__tab" data-tab="2">Second</div>
+        <div class="tabby__tab tabby__tab--active" data-tab="3">Third</div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="dist/tabby.min.js"></script>
+  <script>
+    var tabs = $.fn.tabby();
+  </script>
+</body>
+</html>
