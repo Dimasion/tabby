@@ -56,9 +56,8 @@ Super simple js tabs library.
       elTab: ".tabby__tab", // tab selector
       elContent: ".tabby__content", // tab content selector
       classActiveTab: "tabby__tab--active", // tab active class
-      welcome: true/false // show info in consol
+      welcome: true/false // show info in console
     }
-    ]
     ```
 ##### Methods
 When you called tabby, its automatically called init method.
