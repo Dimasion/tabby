@@ -48,5 +48,5 @@ Super simple js tabs library.
 ##### Methods
 When you called tabby, its automatically called init method.
 ```js
-init() - init/update tabs
+init() // init/update tabs
 ```
